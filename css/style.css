@@ -36,6 +36,32 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+#readMOre{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+#readMOre:hover{
+    cursor: pointer;
+}
+#moreTExt{
+    display: none;
+}
+#titleWork{
+    font-weight: bold;
+    position: relative;
+}
+#underLine{
+    position: relative;
+}
+#underLine:before{
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 95px;
+    left: 1px;
+    display: block;
+}
 
 .btn {
     border: none;
